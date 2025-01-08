@@ -53,9 +53,8 @@ Jurusan : Teknik Informatika <p>
          def __init__(self, data, view):
              self.data = data
              self.view = view
-   - __init__: Konstruktor yang digunakan untuk menginisialisasi objek TicketProcess. Ini menerima dua parameter:
-            - data: Objek yang digunakan untuk menyimpan dan mengelola data tiket.
-            - view: Objek yang digunakan untuk menampilkan dan mendapatkan input tiket dari pengguna.
+    - __init__: Konstruktor yang digunakan untuk menginisialisasi objek TicketProcess. Ini menerima dua parameter:
+     data: Objek yang digunakan untuk menyimpan dan mengelola data tiket dan view: Objek yang digunakan untuk                 menampilkan dan mendapatkan input tiket dari pengguna.
    
    
 
