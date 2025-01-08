@@ -55,6 +55,35 @@ Jurusan : Teknik Informatika <p>
              self.view = view
     - __init__: Konstruktor yang digunakan untuk menginisialisasi objek TicketProcess. Ini menerima dua parameter:
      data: Objek yang digunakan untuk menyimpan dan mengelola data tiket dan view: Objek yang digunakan untuk                 menampilkan dan mendapatkan input tiket dari pengguna.
+4. Kelas TicketView
+
+         def input_ticket(self):
+             try:
+                passenger_name = input("Masukkan nama penumpang: ")
+                if not passenger_name:
+                    raise ValueError("Nama penumpang tidak boleh kosong")
+        
+                destination = input("Masukkan tujuan: ")
+                if not destination:
+                    raise ValueError("Tujuan tidak boleh kosong")
+        
+                return {"passenger_name": passenger_name, "destination": destination}
+          except ValueError as e:
+              print(f"Input tidak valid: {e}")
+              return None
+   - Fungsi: Metode ini bertujuan untuk meminta input dari pengguna mengenai nama penumpang dan tujuan perjalanan.
+   - Validasi Input: Nama penumpang tidak boleh kosong. Jika kosong, akan mengangkat ValueError dan Tujuan perjalanan         tidak boleh kosong. Jika kosong, akan mengangkat ValueError.
+   - Pengembalian Data: Jika input valid, metode ini mengembalikan sebuah dictionary yang berisi passenger_name dan           destination. Jika input tidak valid, mengembalikan None.
+     
+   Metode diaplay_tickets
+
+          def display_tickets(self, tickets):
+              print(f"{'Nama Penumpang':<20}{'Tujuan':<20}")
+              print("-" * 40)
+              for ticket in tickets:
+              print(f"{ticket['passenger_name']:<20}{ticket['destination']:<20}")
+
+
    
    
 
