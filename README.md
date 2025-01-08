@@ -9,7 +9,7 @@ Jurusan : Teknik Informatika <p>
 
        def __init__(self):
             self.tickets = []
-   - __init__: Ini adalah konstruktor kelas yang digunakan untuk menginisialisasi objek TicketData. Di dalamnya, atribut      tickets diinisialisasi sebagai daftar kosong.
+   -- __init__: Ini adalah konstruktor kelas yang digunakan untuk menginisialisasi objek TicketData. Di dalamnya, atribut      tickets diinisialisasi sebagai daftar kosong.
 
    
 
