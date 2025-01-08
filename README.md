@@ -86,7 +86,8 @@ Jurusan : Teknik Informatika <p>
    - Parameter: Menerima tickets, yang merupakan daftar tiket dalam bentuk dictionary.
    - Tampilan: Menampilkan header tabel dengan kolom "Nama Penumpang" dan "Tujuan", Menampilkan garis pemisah untuk          memperjelas tampilan tabel, Melalui loop, menampilkan setiap tiket dalam daftar tickets dalam format yang rapi.
 ## Hasil Program 
-   ! [gambar1] (https://github.com/user-attachments/assets/a1e656ec-82b6-4764-a7dd-61d430a3105b)
+   ! [gambar1] ![foto1](https://github.com/user-attachments/assets/bb10c29a-6b12-465f-bd69-4423016bab05)
+
 
 
 
