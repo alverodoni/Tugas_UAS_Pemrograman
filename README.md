@@ -34,7 +34,9 @@ Jurusan : Teknik Informatika <p>
    - Membuat objek TicketData untuk mengelola data tiket.
    - Membuat objek TicketView untuk menampilkan data tiket.
    - Membuat objek TicketProcess yang menggabungkan data dan view untuk menangani proses tiket.
-
+     
+   Loop Utama
+   
          while True:
              print("\n1. Tambah Tiket")
              print("2. Tampilkan Tiket")
@@ -54,9 +56,17 @@ Jurusan : Teknik Informatika <p>
     - Berdasarkan input pengguna (choice), metode yang sesuai dari instance TicketProcess akan dipanggil.
     - Pengguna dapat memilih opsi untuk menambah tiket, menampilkan tiket, atau keluar dari program.
     - Jika input tidak valid, sebuah pesan akan ditampilkan.
+  
+   Fungsi Tambahan (new_func):
 
-           if __name__ == "__main__":
-               main()
+       def new_func():
+           data = TicketData()
+           return data
+   
+   Blok Eksekusi:
+
+       if __name__ == "__main__":
+           main()
     - Bagian ini memastikan bahwa fungsi main() akan dijalankan ketika skrip dijalankan langsung.
 4. Kelas TicketProcess
    
