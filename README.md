@@ -62,6 +62,7 @@ Jurusan : Teknik Informatika <p>
        def new_func():
            data = TicketData()
            return data
+   - Fungsi ini menginisialisasi dan mengembalikan instance dari TicketData. Fungsi ini mungkin digunakan di bagian lain dari kode Anda.
    
    Blok Eksekusi:
 
