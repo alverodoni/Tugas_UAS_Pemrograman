@@ -74,6 +74,7 @@ Jurusan : Teknik Informatika <p>
          def __init__(self, data, view):
              self.data = data
              self.view = view
+   
          def add_ticket(self):
              ticket = self.view.input_ticket()
              if ticket:
