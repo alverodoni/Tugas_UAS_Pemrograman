@@ -18,11 +18,19 @@ Jurusan : Teknik Informatika <p>
          def get_tickets(self):
              return self.tickets
    - get_tickets: Metode ini mengembalikan daftar tickets yang saat ini disimpan dalam objek TicketData. Ini                  memungkinkan pengguna untuk mendapatkan semua tiket yang telah ditambahkan.
-2. Fungsi main()
+2. Import Statements:
+
+       from data import TicketData
+       from process import TicketProcess
+       from view import TicketView
+   - Program ini mengimpor tiga kelas: TicketData dari modul data, TicketProcess dari modul process, dan TicketView dari modul view.
+
+   Fungsi main()
    
-        data = TicketData()
-        view = TicketView()
-        process = TicketProcess(data, view)
+       def main
+           data = TicketData()
+           view = TicketView()
+           process = TicketProcess(data, view)
    - Membuat objek TicketData untuk mengelola data tiket.
    - Membuat objek TicketView untuk menampilkan data tiket.
    - Membuat objek TicketProcess yang menggabungkan data dan view untuk menangani proses tiket.
@@ -48,14 +56,14 @@ Jurusan : Teknik Informatika <p>
            if __name__ == "__main__":
                main()
     - Bagian ini memastikan bahwa fungsi main() akan dijalankan ketika skrip dijalankan langsung.
-3. Kelas TicketProcess
+4. Kelas TicketProcess
    
          def __init__(self, data, view):
              self.data = data
              self.view = view
     - __init__: Konstruktor yang digunakan untuk menginisialisasi objek TicketProcess. Ini menerima dua parameter:
      data: Objek yang digunakan untuk menyimpan dan mengelola data tiket dan view: Objek yang digunakan untuk                 menampilkan dan mendapatkan input tiket dari pengguna.
-4. Kelas TicketView
+5. Kelas TicketView
 
          def input_ticket(self):
              try:
