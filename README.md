@@ -53,6 +53,7 @@ Jurusan : Teknik Informatika <p>
     - Program berjalan dalam loop while yang menampilkan menu opsi kepada pengguna.
     - Berdasarkan input pengguna (choice), metode yang sesuai dari instance TicketProcess akan dipanggil.
     - Pengguna dapat memilih opsi untuk menambah tiket, menampilkan tiket, atau keluar dari program.
+    - Jika input tidak valid, sebuah pesan akan ditampilkan.
 
            if __name__ == "__main__":
                main()
