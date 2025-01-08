@@ -84,8 +84,12 @@ Jurusan : Teknik Informatika <p>
              tickets = self.data.get_tickets()
              self.view.display_tickets(tickets)
 
-    - __init__: Konstruktor yang digunakan untuk menginisialisasi objek TicketProcess. Ini menerima dua parameter:
-     data: Objek yang digunakan untuk menyimpan dan mengelola data tiket dan view: Objek yang digunakan untuk                 menampilkan dan mendapatkan input tiket dari pengguna.
+    - __init__: Konstruktor yang digunakan untuk menginisialisasi objek TicketProcess. Ini menerima dua parameter: data: Objek yang digunakan untuk menyimpan dan mengelola data tiket dan view: Objek yang digunakan untuk menampilkan dan mendapatkan input            tiket dari pengguna.
+    - ticket = self.view.input_ticket(): Memanggil metode input_ticket() dari objek view untuk mendapatkan tiket baru dari input pengguna.
+    - if ticket: Memeriksa apakah tiket valid (tidak kosong atau tidak None).
+    - self.data.add_ticket(ticket): Jika tiket valid, tambahkan tiket ke dalam data tiket menggunakan metode add_ticket() dari objek data.
+    - tickets = self.data.get_tickets(): Memanggil metode get_tickets() dari objek data untuk mendapatkan daftar semua tiket yang tersimpan.
+    - self.view.display_tickets(tickets): Memanggil metode display_tickets() dari objek view untuk menampilkan daftar tiket yang diperoleh.
 6. Kelas TicketView
 
          def input_ticket(self):
