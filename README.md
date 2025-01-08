@@ -82,6 +82,9 @@ Jurusan : Teknik Informatika <p>
               print("-" * 40)
               for ticket in tickets:
               print(f"{ticket['passenger_name']:<20}{ticket['destination']:<20}")
+   - Fungsi: Metode ini bertujuan untuk menampilkan data tiket yang disimpan dalam format tabel.
+   - Parameter: Menerima tickets, yang merupakan daftar tiket dalam bentuk dictionary.
+   - Tampilan: Menampilkan header tabel dengan kolom "Nama Penumpang" dan "Tujuan", Menampilkan garis pemisah untuk          memperjelas tampilan tabel, Melalui loop, menampilkan setiap tiket dalam daftar tickets dalam format yang rapi.
 
 
    
