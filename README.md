@@ -74,9 +74,18 @@ Jurusan : Teknik Informatika <p>
          def __init__(self, data, view):
              self.data = data
              self.view = view
+         def add_ticket(self):
+             ticket = self.view.input_ticket()
+             if ticket:
+                 self.data.add_ticket(ticket)
+
+         def show_tickets(self):
+             tickets = self.data.get_tickets()
+             self.view.display_tickets(tickets)
+
     - __init__: Konstruktor yang digunakan untuk menginisialisasi objek TicketProcess. Ini menerima dua parameter:
      data: Objek yang digunakan untuk menyimpan dan mengelola data tiket dan view: Objek yang digunakan untuk                 menampilkan dan mendapatkan input tiket dari pengguna.
-5. Kelas TicketView
+6. Kelas TicketView
 
          def input_ticket(self):
              try:
