@@ -31,6 +31,7 @@ Jurusan : Teknik Informatika <p>
            data = TicketData()
            view = TicketView()
            process = TicketProcess(data, view)
+   inisialisasi
    - Membuat objek TicketData untuk mengelola data tiket.
    - Membuat objek TicketView untuk menampilkan data tiket.
    - Membuat objek TicketProcess yang menggabungkan data dan view untuk menangani proses tiket.
