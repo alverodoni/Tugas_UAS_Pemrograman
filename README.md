@@ -51,6 +51,7 @@ Jurusan : Teknik Informatika <p>
              else:
                  print("Pilihan tidak valid. Silakan coba lagi.")
     - Program berjalan dalam loop while yang menampilkan menu opsi kepada pengguna.
+    - Berdasarkan input pengguna (choice), metode yang sesuai dari instance TicketProcess akan dipanggil.
     - Pengguna dapat memilih opsi untuk menambah tiket, menampilkan tiket, atau keluar dari program.
 
            if __name__ == "__main__":
