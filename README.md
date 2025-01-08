@@ -85,6 +85,9 @@ Jurusan : Teknik Informatika <p>
    - Fungsi: Metode ini bertujuan untuk menampilkan data tiket yang disimpan dalam format tabel.
    - Parameter: Menerima tickets, yang merupakan daftar tiket dalam bentuk dictionary.
    - Tampilan: Menampilkan header tabel dengan kolom "Nama Penumpang" dan "Tujuan", Menampilkan garis pemisah untuk          memperjelas tampilan tabel, Melalui loop, menampilkan setiap tiket dalam daftar tickets dalam format yang rapi.
+## Hasil Program 
+   ! [gambar1] (https://github.com/user-attachments/assets/a1e656ec-82b6-4764-a7dd-61d430a3105b)
+
 
 
    
