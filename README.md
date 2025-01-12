@@ -20,7 +20,7 @@ Mata Kuliah: Bahasa Pemrograman <p>
          def get_tickets(self):
              return self.tickets
    - get_tickets: Metode ini mengembalikan daftar tickets yang saat ini disimpan dalam objek TicketData. Ini                  memungkinkan pengguna untuk mendapatkan semua tiket yang telah ditambahkan.
-2. Main
+2. Main Import Kelas
 
        from data import TicketData
        from process import TicketProcess
