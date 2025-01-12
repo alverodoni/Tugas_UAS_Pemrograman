@@ -1,9 +1,10 @@
 ## Tugas_UAS_Pemrograman
 Program pengelolaan tiket kereta <p>
-Nama : Doni Alvero <p>
-Nim : 312410663 <P>
-Kelas : TI.24.A.5 <P>
-Jurusan : Teknik Informatika <p>
+Nama: Doni Alvero <p>
+Nim: 312410663 <P>
+Kelas: TI.24.A.5 <P>
+Jurusan: Teknik Informatika <p>
+Mata Kuliah: Bahasa Pemrograman <p>
 
 ## Penjelasan Program 
 1. Kelas TiketData
